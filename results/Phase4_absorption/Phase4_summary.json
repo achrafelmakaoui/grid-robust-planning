@@ -1,0 +1,29 @@
+{
+  "phase": 4,
+  "summary": [
+    {
+      "eps": 0.0,
+      "n_classes": 202,
+      "recurrent": 2,
+      "transient": 200,
+      "p_goal": null,
+      "mean_steps": null
+    },
+    {
+      "eps": 0.1,
+      "n_classes": 32,
+      "recurrent": 1,
+      "transient": 31,
+      "p_goal": 1.0,
+      "mean_steps": 4147.8905
+    },
+    {
+      "eps": 0.2,
+      "n_classes": 32,
+      "recurrent": 1,
+      "transient": 31,
+      "p_goal": 1.0,
+      "mean_steps": 782.7385
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "experiment": "E2",
+  "opt_cost": 44,
+  "results": [
+    {
+      "eps": 0.0,
+      "p_matrix": 1.0,
+      "p_mc": 1.0,
+      "avg_steps": 44.0
+    },
+    {
+      "eps": 0.1,
+      "p_matrix": 0.033435,
+      "p_mc": 0.74925,
+      "avg_steps": 49.43
+    },
+    {
+      "eps": 0.2,
+      "p_matrix": 0.000687,
+      "p_mc": 0.670625,
+      "avg_steps": 61.87
+    },
+    {
+      "eps": 0.3,
+      "p_matrix": 9e-06,
+      "p_mc": 0.694125,
+      "avg_steps": 84.31
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "experiment": "E4",
+  "optimal": 44,
+  "results": [
+    {
+      "W": 1.0,
+      "cost": 44,
+      "subopt_pct": 0.0,
+      "nodes": 219
+    },
+    {
+      "W": 1.2,
+      "cost": 44,
+      "subopt_pct": 0.0,
+      "nodes": 181
+    },
+    {
+      "W": 1.5,
+      "cost": 44,
+      "subopt_pct": 0.0,
+      "nodes": 181
+    },
+    {
+      "W": 2.0,
+      "cost": 48,
+      "subopt_pct": 9.09,
+      "nodes": 144
+    },
+    {
+      "W": 3.0,
+      "cost": 48,
+      "subopt_pct": 9.09,
+      "nodes": 138
+    },
+    {
+      "W": 5.0,
+      "cost": 48,
+      "subopt_pct": 9.09,
+      "nodes": 135
+    }
+  ]
+}

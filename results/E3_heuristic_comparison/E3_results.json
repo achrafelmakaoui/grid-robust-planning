@@ -1,0 +1,29 @@
+{
+  "experiment": "E3",
+  "results": [
+    {
+      "grid": "Easy 10x10",
+      "ucs_nodes": 78,
+      "ucs_cost": 18,
+      "astar_nodes": 58,
+      "astar_cost": 18,
+      "reduction": 25.64
+    },
+    {
+      "grid": "Medium 15x15",
+      "ucs_nodes": 203,
+      "ucs_cost": 44,
+      "astar_nodes": 176,
+      "astar_cost": 44,
+      "reduction": 13.3
+    },
+    {
+      "grid": "Hard 20x20",
+      "ucs_nodes": 288,
+      "ucs_cost": 44,
+      "astar_nodes": 219,
+      "astar_cost": 44,
+      "reduction": 23.96
+    }
+  ]
+}

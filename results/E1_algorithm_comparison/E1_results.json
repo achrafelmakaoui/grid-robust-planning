@@ -1,0 +1,77 @@
+{
+  "experiment": "E1",
+  "results": [
+    {
+      "grid": "Easy 10x10",
+      "algo": "UCS",
+      "cost": 18,
+      "nodes": 78,
+      "open_max": 8,
+      "ms": 0.314
+    },
+    {
+      "grid": "Easy 10x10",
+      "algo": "Greedy",
+      "cost": 18,
+      "nodes": 19,
+      "open_max": 17,
+      "ms": 0.22
+    },
+    {
+      "grid": "Easy 10x10",
+      "algo": "A*",
+      "cost": 18,
+      "nodes": 58,
+      "open_max": 7,
+      "ms": 0.595
+    },
+    {
+      "grid": "Medium 15x15",
+      "algo": "UCS",
+      "cost": 44,
+      "nodes": 203,
+      "open_max": 8,
+      "ms": 3.057
+    },
+    {
+      "grid": "Medium 15x15",
+      "algo": "Greedy",
+      "cost": 50,
+      "nodes": 99,
+      "open_max": 33,
+      "ms": 0.473
+    },
+    {
+      "grid": "Medium 15x15",
+      "algo": "A*",
+      "cost": 44,
+      "nodes": 176,
+      "open_max": 14,
+      "ms": 1.851
+    },
+    {
+      "grid": "Hard 20x20",
+      "algo": "UCS",
+      "cost": 44,
+      "nodes": 288,
+      "open_max": 17,
+      "ms": 2.599
+    },
+    {
+      "grid": "Hard 20x20",
+      "algo": "Greedy",
+      "cost": 48,
+      "nodes": 129,
+      "open_max": 50,
+      "ms": 1.503
+    },
+    {
+      "grid": "Hard 20x20",
+      "algo": "A*",
+      "cost": 44,
+      "nodes": 219,
+      "open_max": 20,
+      "ms": 4.169
+    }
+  ]
+}
