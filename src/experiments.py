@@ -12,7 +12,8 @@ if SRC not in sys.path:
 
 from grid   import make_easy_grid, make_medium_grid, make_hard_grid
 from astar  import graph_search
-from markov import (make_policy, build_transition_matrix, comm_classes, expected_steps, absorb_prob, monte_carlo)
+from markov import (make_policy, build_transition_matrix, comm_classes,
+                    expected_steps, absorb_prob, monte_carlo)
 
 ROOT = os.path.join(SRC, "..", "results")
 DIRS = {k: os.path.join(ROOT, v) for k, v in {
@@ -24,7 +25,6 @@ DIRS = {k: os.path.join(ROOT, v) for k, v in {
     "P4": "Phase4_absorption",
     "P5": "Phase5_monte_carlo",
 }.items()}
-
 for d in DIRS.values():
     os.makedirs(d, exist_ok=True)
 
@@ -429,8 +429,10 @@ def phase4():
     for eps in eps_range:
         P2, st2, _ = build_transition_matrix(env, pol, eps=eps)
         try:
-            ap_vals.append(absorb_prob(P2,st2,env.goal).get(env.start,0))
-            et_vals.append(expected_steps(P2,st2,env.goal).get(env.start,0))
+            av = absorb_prob(P2, st2, env.goal).get(env.start, 0)
+            tv = expected_steps(P2, st2, env.goal).get(env.start, 0)
+            ap_vals.append(float(np.clip(av, 0.0, 1.0)))
+            et_vals.append(max(float(tv), 1.0))
         except:
             ap_vals.append(float("nan")); et_vals.append(float("nan"))
 

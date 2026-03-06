@@ -7,7 +7,7 @@
       "cost": 18,
       "nodes": 78,
       "open_max": 8,
-      "ms": 0.314
+      "ms": 0.87
     },
     {
       "grid": "Easy 10x10",
@@ -15,7 +15,7 @@
       "cost": 18,
       "nodes": 19,
       "open_max": 17,
-      "ms": 0.22
+      "ms": 0.181
     },
     {
       "grid": "Easy 10x10",
@@ -23,7 +23,7 @@
       "cost": 18,
       "nodes": 58,
       "open_max": 7,
-      "ms": 0.595
+      "ms": 0.572
     },
     {
       "grid": "Medium 15x15",
@@ -31,7 +31,7 @@
       "cost": 44,
       "nodes": 203,
       "open_max": 8,
-      "ms": 3.057
+      "ms": 0.913
     },
     {
       "grid": "Medium 15x15",
@@ -39,7 +39,7 @@
       "cost": 50,
       "nodes": 99,
       "open_max": 33,
-      "ms": 0.473
+      "ms": 1.078
     },
     {
       "grid": "Medium 15x15",
@@ -47,7 +47,7 @@
       "cost": 44,
       "nodes": 176,
       "open_max": 14,
-      "ms": 1.851
+      "ms": 1.122
     },
     {
       "grid": "Hard 20x20",
@@ -55,7 +55,7 @@
       "cost": 44,
       "nodes": 288,
       "open_max": 17,
-      "ms": 2.599
+      "ms": 4.848
     },
     {
       "grid": "Hard 20x20",
@@ -63,7 +63,7 @@
       "cost": 48,
       "nodes": 129,
       "open_max": 50,
-      "ms": 1.503
+      "ms": 0.559
     },
     {
       "grid": "Hard 20x20",
@@ -71,7 +71,7 @@
       "cost": 44,
       "nodes": 219,
       "open_max": 20,
-      "ms": 4.169
+      "ms": 1.899
     }
   ]
 }

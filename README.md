@@ -26,7 +26,7 @@ Mini_Projet_Bases_IA/
 │   └── exploration.ipynb    # Notebook interactif reproductible
 │
 ├── results/
-│   ├── E1_algorithm_comparison/     # Figures + CSV + JSON
+│   ├── E1_algorithm_comparison/     # Figures + JSON
 │   ├── E2_epsilon_impact/
 │   ├── E3_heuristic_comparison/
 │   ├── E4_weighted_astar/
